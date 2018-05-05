@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<br/>  <br/>
+	<script type="text/javascript" src="Funciones.js"></script>
+</head>
+<body>
+<center>
+<fieldset>
+
+<h2>Calculadora</h2>
+     
+    Valor 1: 
+	<input type="number" id="cajaNumero1">
+	<br/><br/>
+	Valor 2 :
+	<input type="number" id="cajaNumero2">
+	<br/><br/>
+
+	Operaciones Atirméticas 
+	<br/>
+	<input type="submit" value="+" onclick="return  sumar()" >
+
+	<input type="submit" value="-" onclick="return restar()" >
+
+	<input type="submit" value="*" onclick="return multiplicar()" >
+
+	<input type="submit" value="/" onclick="return dividir()" >
+	<br/><br/><br/>
+	<label for="Resultado:">Resultado:</label>
+	<br/>
+	<input type="number" id="cajaResultado" disabled="false">
+</fieldset>
+</center>	 
+</body>
+</html> 
